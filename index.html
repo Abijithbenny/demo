@@ -196,7 +196,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                     
                                  
                                     
-                                    <div class="col-md-12 wow linesAnimInLong" data-splitting="lines">
+                                    <div class="col-md-12 wow linesAnimInLong" data-splitting="lines" style="text-align: center;">
                                         Transforming healthcare with cutting edge remote monitoring to empower individuals, enhance well-being, and connect communities.
                                     </div>
                                     
@@ -238,7 +238,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                         <div class="row mb-n50 mb-xs-n30">
                                             
                                             <!-- Number Item -->
-                                            <div class="col-sm-6 col-lg-5 mb-50 mb-xs-30 wow fadeScaleIn" data-wow-delay="0.4s">
+                                            <div class="col-sm-6 col-lg-5 mb-50 mb-xs-30 wow fadeScaleIn" data-wow-delay="0.1s">
                                                 <div class="number-title mb-10">
                                                     76%
                                                 </div>
@@ -249,7 +249,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                             <!-- End Number Item -->
                                             
                                             <!-- Number Item -->
-                                            <div class="col-sm-6 col-lg-5 offset-lg-2 mb-50 mb-xs-30 wow fadeScaleIn" data-wow-delay="0.6s">
+                                            <div class="col-sm-6 col-lg-5 offset-lg-2 mb-50 mb-xs-30 wow fadeScaleIn" data-wow-delay="0.2s">
                                                 <div class="number-title mb-10">
                                                     90%
                                                 </div>
@@ -260,7 +260,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                             <!-- End Number Item -->
                                             
                                             <!-- Number Item -->
-                                            <div class="col-sm-6 col-lg-5 mb-50 mb-xs-30 wow fadeScaleIn" data-wow-delay="0.8s">
+                                            <div class="col-sm-6 col-lg-5 mb-50 mb-xs-30 wow fadeScaleIn" data-wow-delay="0.3s">
                                                 <div class="number-title mb-10">
                                                     86%
                                                 </div>
@@ -271,14 +271,14 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                             <!-- End Number Item -->
                                             
                                             <!-- Number Item -->
-                                            <div class="col-sm-6 col-lg-5 offset-lg-2 mb-50 mb-xs-30 wow fadeScaleIn" data-wow-delay="1s">
+                                            <div class="col-sm-6 col-lg-5 offset-lg-2 mb-50 mb-xs-30 wow fadeScaleIn" data-wow-delay="0.4s">
                                                 <div class="number-title mb-10">
                                                     30%
                                                 </div>
                                                 <div class="number-descr"> improvement in overall quality of life scores
                                                 </div>
                                             </div>
-                                            <div class="col-sm-6 col-lg-5 mb-50 mb-xs-30 wow fadeScaleIn" data-wow-delay="1.2s">
+                                            <div class="col-sm-6 col-lg-5 mb-50 mb-xs-30 wow fadeScaleIn" data-wow-delay="0.6s">
                                                 <div class="number-title mb-10">
                                                    40%
                                                 </div>
@@ -344,7 +344,7 @@ Optimizing Patient Health.</h2>
                                     </div>
                                     
                                     <h4 class="features-2-title">
-                                        Remote Patient Monitoring (RPM)
+                                        &nbsp;&nbsp;&nbsp;&nbsp;Remote Patient Monitoring&nbsp;&nbsp;&nbsp;&nbsp;
                                     </h4>
                                     
                                     <div class="features-2-descr">
@@ -366,7 +366,7 @@ Optimizing Patient Health.</h2>
                                     </div>
                                     
                                     <h4 class="features-2-title">
-                                        Care Coordination Tools
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Care Coordination Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     </h4>
                                     
                                     <div class="features-2-descr">
@@ -650,8 +650,7 @@ innovation, we streamline processes for efficient care.
 </p>
 </div>
 	
-<button class="accordion"  style="background-color:#1f00ff00 !important; color: #fff !important">Minority & Women Owned
-Next Slide</button>
+<button class="accordion"  style="background-color:#1f00ff00 !important; color: #fff !important">Minority & Women Owned</button>
 <div class="panel">
   <p>Carestrides offers comprehensive remote monitoring solutions that address a wide range of healthcare needs, enabling continuous monitoring and management of patient health from afar.
 
@@ -1072,7 +1071,7 @@ care
         
 <style>
 	.active::after{
-		opacity: 0 !important;
+		opacity: 0;
 	}
 	 	.mob {
     display: none !important;
@@ -1097,8 +1096,10 @@ care
 	
   padding: 0 18px;
   display: none;
-  
   overflow: hidden;
+}
+.panel p{
+    font-size: 17px;
 }
 	
 .accordion:after {
@@ -1109,12 +1110,13 @@ care
   margin-left: 5px;
 }
 
-.active:after {
-  content: "\2212";
-  
-}
+
 	@media only screen and (max-width: 600px) {
-        .active::after{
+        .active:after {
+        content: "\2212";
+        opacity: 1 !important;
+}
+        button .active::after{
 		opacity: 1 !important;
 	}
   .mob {
