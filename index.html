@@ -1117,9 +1117,7 @@ care
         content: "\2212";
         opacity: 1 !important;
 }
-		.owl-item .active:after {
-    opacity: 0 !important;
-}
+		
         button .active::after{
 		opacity: 1 !important;
 	}
@@ -1128,7 +1126,19 @@ care
   }
 			.desk {
     display: none !important;
-  }}
+  }
+	
+		.owl-item .active::after {
+    opacity: 0 !important;
+}
+.owl-item .active:after {
+    opacity: 0 !important;
+}
+.pb-sm-70:after{
+	opacity: 0 !important;	
+}
+		
+	}
 </style>
 		
 <script>
