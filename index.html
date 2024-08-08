@@ -1102,7 +1102,10 @@ care
 .panel p{
     font-size: 16px;
 }
-	
+
+
+	@media only screen and (max-width: 600px) {
+        	
  .accordion:after {
   content: '\002B';
   color: #fff;
@@ -1111,9 +1114,7 @@ care
   margin-left: 5px;
 }
 
-
-	@media only screen and (max-width: 600px) {
-        .accordion .active:after {
+        .accordion.active:after {
         content: "\2212";
         opacity: 1 !important;
 }
