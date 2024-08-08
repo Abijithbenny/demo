@@ -6431,6 +6431,7 @@ img.services-image{
     position: relative;
     padding: 60px 40px;
     text-align: center;
+    width: 100%;
 }
 .features-2-item:before{
     content: "";
