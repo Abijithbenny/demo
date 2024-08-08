@@ -1103,7 +1103,7 @@ care
     font-size: 16px;
 }
 	
-.accordion .accordion:after {
+ .accordion:after {
   content: '\002B';
   color: #fff;
   font-weight: bold;
@@ -1113,14 +1113,10 @@ care
 
 
 	@media only screen and (max-width: 600px) {
-        .active:after {
+        .accordion:after {
         content: "\2212";
         opacity: 1 !important;
 }
-		
-        button .active::after{
-		opacity: 1 !important;
-	}
   .mob {
     display: block !important;
   }
