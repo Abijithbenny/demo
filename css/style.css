@@ -6048,7 +6048,7 @@ img.services-image{
 .services-7-image{
     position: relative;
     overflow: hidden;
-    border-radius: var(--border-radius-default);
+    border-radius: 30px;
     isolation: isolate;
     transform: translateZ(0);    
 }
