@@ -8937,6 +8937,7 @@ a.portfolio-5-link:hover .portfolio-5-title span{
     background: none;
     border: none;
     border-radius: 30px;
+    height: 400px;
 }
 .light-content .post-prev-3.gradient .post-prev-3-container:before{
 	background:	linear-gradient(to right, var(--color-dark-1), var(--color-dark-1)), linear-gradient(135deg,  #3300ff 0%,#5328ff 33%,#8263ff 55%,#0099ff 76%,#3fb2ff 88%,#00cccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */; 
