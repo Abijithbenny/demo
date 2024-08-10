@@ -154,7 +154,9 @@ Primary use: Multipurpose Template
 60. Cookies.
 61. Intro page.
 -------------------------------------------------------------------*/
-
+.actmen{
+    font-weight: 600;
+}
 
 /* ==============================
    Icon fonts
@@ -4670,7 +4672,7 @@ background:linear-gradient(135deg,  #3300ff 0%,#5328ff 33%,#8263ff 55%,#0099ff 7
     -webkit-text-fill-color: transparent;
 }
 .section-title{
-    font-size: 56px;
+    font-size: 50px;
     font-weight: 500;
     line-height: 1.107;
     letter-spacing: -0.03em;
