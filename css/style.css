@@ -1417,13 +1417,14 @@ a.btn-mod:focus{
 }
 
 .btn-mod.btn-border-w-light{
-    color: rgba(255,255,255, .8);
+    color:#1f00ffe6;
     border: 1px solid rgba(255,255,255, .5);
-    background: transparent;
+    background: #fff;
+
 }
 .btn-mod.btn-border-w-light:hover,
 .btn-mod.btn-border-w-light:focus{
-    color: #fff;
+    color: #1f00ffe6;
     border-color: rgba(255,255,255, .8);
 }
 
@@ -4459,7 +4460,7 @@ background:linear-gradient(135deg,  #3300ff 0%,#5328ff 33%,#8263ff 55%,#0099ff 7
 }
 .bg-dark-alpha-80:before,
 .bg-dark-alpha-80 .YTPOverlay:before{
-    background: #111111b3;
+    background: #f9f5f512;
    border-radius: 30px;
 	
 }
